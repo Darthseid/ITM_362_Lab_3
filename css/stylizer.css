@@ -23,9 +23,11 @@ li
 }
 input
 {
-	float: left;
 	width: 75%;
     margin-top: 6px;
+      box-sizing: border-box;
+    width: 50%;
+    border: 1px  dotted gray;
 }
 ol 
 {
@@ -43,8 +45,10 @@ p
 }
 @media screen and (max-width: 1024px)
 {
- .age-verification
-  {display: none;}
+ checkbox
+  {
+  	display: none;
+  }
   .submit
   {
     float: right;
