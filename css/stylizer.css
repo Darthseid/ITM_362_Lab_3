@@ -1,4 +1,71 @@
-
+h1 
 {
+	color: #11ff0a;
+    font-family: 'Cutive Mono', 'Courier', monospace;
+  font-size: 4em;
+  margin: 0.67em 0;
+}
+form
+{
+  padding: 0.35em 0.75em 0.625em;
+}
 
+label
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+li
+{
+	float: left;
+	width: 25%;
+    margin-top: 6px;
+}
+input
+{
+	width: 75%;
+    margin-top: 6px;
+      box-sizing: border-box;
+    width: 50%;
+    border: 1px  dotted gray;
+}
+ol 
+{
+    content: "";
+    display: table;
+    clear: both;
+	padding: 1%;
+}
+p
+{
+ color: #11ff0a;	
+  margin-top: 2em;
+   font-family: 'VT323', 'Courier', monospace;
+  font-size: 2.5em;
+}
+@media screen and (max-width: 1024px)
+{
+ checkbox
+  {
+  	display: none;
+  }
+  .submit
+  {
+    float: right;
+    display: block;
+  }
+}
+ .email
+  {
+  width: 100%;
+   float: none;
+ }
+
+ @media screen and (max-width: 960px) 
+ {
+  .content
+	{
+  	text-align: center;
+    width: 100%;
+  }
 }

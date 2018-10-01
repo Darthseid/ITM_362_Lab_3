@@ -5,6 +5,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <link rel="stylesheet" media="screen" href="css/_reset.min.css" />
+      <link rel="stylesheet" media="screen" href="css/_normalize-form.css" />
+        <link rel="stylesheet" media="screen" href="css/_reset.css" />
+                <link rel="stylesheet" media="screen" href="css/stylizer.css" />
+                <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet"> 
+               <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> 
 </head>
 <body>
 <main id="content">
@@ -20,11 +26,13 @@
         <input type="email" name="email" id="email" pattern="^.+@.+$" />
       </li>
       <li id="input-age-verification">
+        <div class = "checkmark" >
         <input type="checkbox" id="age-verification" name="age-verification" value="18" />
+      </div>
         <label for="age-verification">I am 18 years of age or older and there is no denying that this is true</label>
       </li>
       <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" />
+        <input type="submit" name="submit" id="submit" value="Subscribe"/>
       </li>
     </ol>
   </form>
