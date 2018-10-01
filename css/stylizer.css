@@ -1,4 +1,49 @@
+h1 
+{
+	color: #11ff0a;
+    font-family: 'Cutive Mono', monospace;
+  font-size: 4em;
+  margin: 0.67em 0;
+}
+
+form
+{
+  padding: 0.35em 0.75em 0.625em;
+}
+
+
+label
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+li
+{
+	float: left;
+	width: 25%;
+    margin-top: 6px;
+}
+
+input
+{
+	float: left;
+	width: 75%;
+    margin-top: 6px;
+}
+
+ol 
+{
+    content: "";
+    display: table;
+    clear: both;
+	padding: 1%;
+}
+
 p
 {
-
+ color: #11ff0a;	
+  margin-top: 2em;
+   font-family: 'VT323', monospace;
+  font-size: 2.5em;
 }
